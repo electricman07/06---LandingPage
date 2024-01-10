@@ -67,3 +67,24 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/* Section 1 */
+.card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+  border: 1px solid black;
+  margin: 2.5%;
+  padding: 1rem;
+}
+
+.card h3 {
+  padding-bottom: 2rem;
+}
+
+.card p {
+  line-height: 2;
+}
