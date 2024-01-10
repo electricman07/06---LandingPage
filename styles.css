@@ -10,6 +10,8 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+/* Main Navigation */
 .main-nav {
   display: flex;
   justify-content: space-between;
@@ -47,4 +49,15 @@ body {
 
 .nav-link:last-child {
   padding-right: 2rem;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./images/bob-brewer-r1PIQ6mBs8I-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
