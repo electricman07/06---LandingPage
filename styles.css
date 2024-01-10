@@ -113,3 +113,21 @@ header h1 span {
   margin: 3rem;
   line-height: 2;
 }
+/* Section 2 */
+.section-2 {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-box h2 {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  align-items: center;
+}
+
+.left-box p {
+  line-height: 2;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+}
