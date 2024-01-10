@@ -68,7 +68,19 @@ header {
   background-repeat: no-repeat;
 }
 
+header h1 {
+  font-size: 3rem;
+}
+header h1 span {
+  font-size: 4rem;
+}
+
 /* Section 1 */
+.section-1 h2 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 3rem;
+}
 .card-container {
   display: flex;
   justify-content: space-between;
@@ -77,14 +89,23 @@ header {
 .card {
   width: 30%;
   border: 1px solid black;
+  border-radius: 3rem;
   margin: 2.5%;
   padding: 1rem;
 }
 
 .card h3 {
   padding-bottom: 2rem;
+  text-align: center;
 }
 
 .card p {
+  line-height: 2;
+  margin: 2rem;
+}
+
+.card ul,
+.card ol {
+  margin: 3rem;
   line-height: 2;
 }
