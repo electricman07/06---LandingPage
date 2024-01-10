@@ -271,3 +271,27 @@ h2 {
 .faq h3 {
   margin-bottom: 2rem;
 }
+
+/* Contact */
+.section-6 {
+  padding-top: 60px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  background-color: black;
+  height: 200px;
+}
+
+.link-container a {
+  color: white;
+}
+
+.copyright {
+  text-align: center;
+}
